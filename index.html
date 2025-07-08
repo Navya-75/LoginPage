@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TaskTrack Login</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>📋 TaskTrack</h1>
+      <p>Turn your chaos into clarity</p>
+      <img src="https://via.placeholder.com/150" alt="Illustration" class="illustration"/>
+    </div>
+    <div class="right">
+      <form class="login-form" onsubmit="return handleLogin(event)">
+        <h2>Welcome Back 👋</h2>
+        <p>Login to continue your productivity journey</p>
+        <input type="email" placeholder="Email" required/>
+        <input type="password" placeholder="Password" required/>
+        <button type="submit">Login</button>
+        <div class="links">
+          <p>Don't have an account? <a href="#">Sign Up</a></p>
+          <a href="#">Forgot Password?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
